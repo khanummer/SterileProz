@@ -5,33 +5,6 @@ class Home extends Component {
     render() {
         return(
             <div>
-                <div>GET HELP 24 HOUR SERVICE</div>
-
-                <div>
-                    CDC APPROVED
-                    "CDC Medical Cleaning Approved Methods for Hospitals Used"
-                </div>
-
-                <button>CALL TODAY FOR A FREE QUOTE!</button>
-
-
-
-                <div>COVID-19 CLEANING</div>
-                <div>COVID-19 Sanitation Homes, Offices, Schools, Commercial</div>
-                
-                <div>TRAINING AND PROFESSIONAL SERVICES</div>
-                
-                <div>Highly Trained Specialists</div>
-                <div>
-                    Founded By A Doctor, Our Cleaners are Fully Trained In Hospital Level Cleaning Techniques,
-                    Guaranteed To Be The Best In The Industry, We Strive To Ensure Your Home is Sanitized 
-                    And Covid Free! 
-                </div>
-
-
-
-
-          
 
             <div className="container">
 
@@ -123,6 +96,13 @@ class Home extends Component {
 
                 </div>
 
+                
+                <div class="jumbotron">
+                        <h1 class="display-4">CDC And FDA Approved!</h1>
+                        <p class="lead">"CDC Medical Cleaning Approved Methods for Hospitals Used."</p>
+                </div>
+
+
                 <h1>SterileProz Offers Many Kinds of Services We Sterilize :</h1>
 
                 <ul class="list-group list-group-flush">
@@ -140,6 +120,9 @@ class Home extends Component {
                     <li class="list-group-item">Commercial Buildings</li>
                     <li class="list-group-item">Grocery Stores</li>
                 </ul>
+
+                <h1>To get a free quote or learn more, fill out the form below :</h1>
+
 
                 <form>
                     <div class="form-row">
@@ -169,6 +152,14 @@ class Home extends Component {
                     <button type="submit" class="btn btn-primary">Send</button>
                     </form>
 
+                    <div class="jumbotron">
+                        <h1 class="display-4">Highly Trained Specialists</h1>
+                        <p class="lead">
+                            Founded By A Doctor, Our Cleaners are Fully Trained In Hospital Level Cleaning Techniques,
+                            Guaranteed To Be The Best In The Industry, We Strive To Ensure Your Home is Sanitized 
+                            And Covid Free! 
+                        </p>
+                    </div>
                     
             </div>
 
