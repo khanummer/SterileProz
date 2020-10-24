@@ -4,22 +4,14 @@ import './App.css';
 import Home from './Home/Home';
 import AboutUs from './AboutUs/AboutUs';
 import ContactUs from './ContactUs/ContactUs';
-
-// function App() {
-//   return (
-//     <div>
-//       <div>hi</div>
-//     </div>
-//   );
-// }
-
-// export default App;
+import NavBar from './NavBar/NavBar';
 
 class App extends Component {
 
   render(){
     return(
       <div>
+        <NavBar/>
         <Switch>
           <Route exact path="/" component={() => <Home/>}/>
           <Route exact path="/contact" component={() => <ContactUs/>}/>
