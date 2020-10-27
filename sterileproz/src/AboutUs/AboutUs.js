@@ -8,7 +8,7 @@ class AboutUs extends Component {
 
                 <div className="container">
                     <div className="row">
-                    <div className="jumbotron" style={{height: "100%"}}>
+                    <div className="jumbotron" style={{backgroundColor: "#7c818c"}}>
                         <h1 className="display-4">About Us</h1>
                         <p className="lead">
                             Founded By A Doctor, Our Cleaners are Fully Trained In Hospital Level Cleaning Techniques,
