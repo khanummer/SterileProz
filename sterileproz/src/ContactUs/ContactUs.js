@@ -4,10 +4,79 @@ import './ContactUs.css';
 class ContactUs extends Component {
     render() {
         return(
-            <div>
+            <div className="home">
+                <div className="container">
+                    <div className="row">
+                        <div className="col pt-4">
+                            <div className="card mx-auto" style={{width: "13rem"}}>
+                            <img src="../../imgs/phone-icon.jpg" className="card-img-top" alt="..."/>
+                                <div className="card-body" style={{backgroundColor: "#7c818c"}}>
+                                    <h5 className="card-title">(909) 999-9999</h5>
+                                    {/* <a href="/" className="btn btn-primary">Click Here</a> */}
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col pt-4">
+                            <div className="card mx-auto" style={{width: "13rem"}}>
+                            <img src="../../imgs/email-icon.jpg" className="card-img-top" alt="..."/>
+                                <div className="card-body" style={{backgroundColor: "#7c818c"}}>
+                                    <h5 className="card-title">email@email.com</h5>
+                                    {/* <a href="/" className="btn btn-primary">Click Here</a> */}
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col pt-4">
+                            <div className="card mx-auto" style={{width: "13rem"}}>
+                            <img src="../../imgs/location-icon.jpg" className="card-img-top" alt="..."/>
+                                <div className="card-body" style={{backgroundColor: "#7c818c"}}>
+                                    <h5 className="card-title">123 Location Ave.</h5>
+                                    {/* <a href="/" className="btn btn-primary">Click Here</a> */}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-                <div>Contact Us</div>
+                    <div className="row">
+                        <div className="col pt-4">
+                            <div className="card mx-auto" style={{width: "13rem"}}>
+                            <img src="../../imgs/facebook.jpg" className="card-img-top" alt="..."/>
+                                <div className="card-body" style={{backgroundColor: "#7c818c"}}>
+                                    <h5 className="card-title">Facebook</h5>
+                                    <a href="/" className="btn btn-primary">Click Here</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col pt-4">
+                            <div className="card mx-auto" style={{width: "13rem"}}>
+                            <img src="../../imgs/instagram.png" className="card-img-top" alt="..."/>
+                                <div className="card-body" style={{backgroundColor: "#7c818c"}}>
+                                    <h5 className="card-title">Instagram</h5>
+                                    <a href="/" className="btn btn-primary">Click Here</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col pt-4">
+                            <div className="card mx-auto" style={{width: "13rem"}}>
+                            <img src="../../imgs/twitter.png" className="card-img-top" alt="..."/>
+                                <div className="card-body" style={{backgroundColor: "#7c818c"}}>
+                                    <h5 className="card-title">Twitter</h5>
+                                    <a href="/" className="btn btn-primary">Click Here</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col pt-4">
+                            <div className="card mx-auto" style={{width: "13rem"}}>
+                            <img src="../../imgs/youtube.png" className="card-img-top" alt="..."/>
+                                <div className="card-body" style={{backgroundColor: "#7c818c"}}>
+                                    <h5 className="card-title">Youtube</h5>
+                                    <a href="/" className="btn btn-primary">Click Here</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
+
+                </div>
             </div>
 
         )

@@ -4,10 +4,20 @@ import './AboutUs.css';
 class AboutUs extends Component {
     render() {
         return(
-            <div>
+            <div className="home">
 
-                <div>About Us</div>
-
+                <div className="container">
+                    <div className="row">
+                    <div className="jumbotron" style={{height: "100%"}}>
+                        <h1 className="display-4">About Us</h1>
+                        <p className="lead">
+                            Founded By A Doctor, Our Cleaners are Fully Trained In Hospital Level Cleaning Techniques,
+                            Guaranteed To Be The Best In The Industry, We Strive To Ensure Your Home is Sanitized 
+                            And Covid Free! 
+                        </p>
+                    </div>
+                    </div>
+                </div>
             </div>
 
         )
