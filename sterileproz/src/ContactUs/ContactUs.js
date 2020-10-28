@@ -8,7 +8,7 @@ class ContactUs extends Component {
                 <div className="container fill">
                     <div className="row">
                         <div className="col pt-4">
-                            <div className="card mx-auto" style={{width: "13rem"}}>
+                            <div className="card mx-auto" style={{width: "15rem"}}>
                             <img src="../../imgs/phone-icon.jpg" className="card-img-top" alt="..." style={{width: "5rem", height: "5rem"}}/>
                                 <div className="card-body" style={{backgroundColor: "#7c818c"}}>
                                     <h5 className="card-title">(909) 667-1500</h5>
@@ -17,7 +17,7 @@ class ContactUs extends Component {
                             </div>
                         </div>
                         <div className="col pt-4">
-                            <div className="card mx-auto" style={{width: "13rem"}}>
+                            <div className="card mx-auto" style={{width: "15rem"}}>
                             <img src="../../imgs/email-icon.jpg" className="card-img-top" alt="..." style={{width: "5rem", height: "5rem"}}/>
                                 <div className="card-body" style={{backgroundColor: "#7c818c"}}>
                                     <h5 className="card-title">SterilePro24@Gmail.com</h5>
@@ -26,8 +26,8 @@ class ContactUs extends Component {
                             </div>
                         </div>
                         <div className="col pt-4">
-                            <div className="card mx-auto" style={{width: "13rem"}}>
-                            <img src="../../imgs/location-icon.jpg" className="card-img-top" alt="..." style={{width: "5rem", height: "5rem"}}/>
+                            <div className="card mx-auto" style={{width: "15rem"}}>
+                            <img src="../../imgs/location-icon.png" className="card-img-top" alt="..." style={{width: "5rem", height: "5rem"}}/>
                                 <div className="card-body" style={{backgroundColor: "#7c818c"}}>
                                     <h5 className="card-title">3200 Lincoln Street, Los Angeles, CA</h5>
                                     {/* <a href="/" className="btn btn-primary">Click Here</a> */}
@@ -42,7 +42,7 @@ class ContactUs extends Component {
                             <img src="../../imgs/facebook.jpg" className="card-img-top" alt="..." style={{width: "5rem", height: "5rem"}}/>
                                 <div className="card-body" style={{backgroundColor: "#7c818c"}}>
                                     <h5 className="card-title">Facebook</h5>
-                                    <a href="/" className="btn btn-primary">Click Here</a>
+                                    <a href="https://www.facebook.com/sterilepro24/" className="btn btn-primary">Click Here</a>
                                 </div>
                             </div>
                         </div>
@@ -51,7 +51,7 @@ class ContactUs extends Component {
                             <img src="../../imgs/instagram.png" className="card-img-top" alt="..." style={{width: "5rem", height: "5rem"}}/>
                                 <div className="card-body" style={{backgroundColor: "#7c818c"}}>
                                     <h5 className="card-title">Instagram</h5>
-                                    <a href="/" className="btn btn-primary">Click Here</a>
+                                    <a href="https://www.instagram.com/sterilepro24/" className="btn btn-primary">Click Here</a>
                                 </div>
                             </div>
                         </div>
@@ -60,7 +60,7 @@ class ContactUs extends Component {
                             <img src="../../imgs/twitter.png" className="card-img-top" alt="..." style={{width: "5rem", height: "5rem"}}/>
                                 <div className="card-body" style={{backgroundColor: "#7c818c"}}>
                                     <h5 className="card-title">Twitter</h5>
-                                    <a href="/" className="btn btn-primary">Click Here</a>
+                                    <a href="https://twitter.com/sterilepro24" className="btn btn-primary">Click Here</a>
                                 </div>
                             </div>
                         </div>

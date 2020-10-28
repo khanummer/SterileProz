@@ -1,6 +1,6 @@
 #myVideo {
     width: 70%;
-    height: auto;
+    height: 30%;
       
 }
 
@@ -13,6 +13,7 @@
     display: flex;
     justify-content: center;
     padding: 1rem;
+
 }
 
 .home {

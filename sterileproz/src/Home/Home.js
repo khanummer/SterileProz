@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './Home.css';
+import { Link } from 'react-router-dom';
 
 class Home extends Component {
     render() {
@@ -8,14 +9,14 @@ class Home extends Component {
            
             {/* Auto Play Video */}
            
-            <div className="p">
-              <video autoPlay muted controls id="myVideo">
-                <source src="../../imgs/sterile24-Final copy.mp4" type="video/mp4"></source>
-              </video>
-            </div>
 
             <div className="container" style={{height: "100%"}}>
 
+            <div className="p">
+              <video autoPlay muted controls playsinline id="myVideo">
+                <source src="../../imgs/sterile24-Final copy.mp4" type="video/mp4"></source>
+              </video>
+            </div>
                 <div className="row">
                     <div className="jumbotron mx-auto text-center" style={{backgroundColor: "#7c818c"}}	>
                         <h1 className="display-4">Highly Trained Specialists</h1>
@@ -31,7 +32,7 @@ class Home extends Component {
 
                     <div className="col pb-4" >
                         <div className="card mx-auto" style={{width: "14rem"}}>
-                        <img src="../../imgs/clean-1.jpg" className="card-img-top" alt="..."/>
+                        <img src="../../imgs/clean-1.JPG" className="card-img-top" alt="..."/>
                             <div className="card-body" style={{backgroundColor: "#7c818c"}}>
                                 <h5 className="card-title">Residental Covid-19 Sanitation</h5>
                                 {/* <p className="card-text">Click Here</p> */}
@@ -42,7 +43,7 @@ class Home extends Component {
 
                     <div className="col pb-4">
                         <div className="card mx-auto" style={{width: "14rem"}}>
-                        <img src="../../imgs/clean-2.jpg" className="card-img-top" alt="..."/>
+                        <img src="../../imgs/clean-2.JPG" className="card-img-top" alt="..."/>
                             <div className="card-body" style={{backgroundColor: "#7c818c"}}>
                                 <h5 className="card-title">Commercial Covid-19 Sanitation</h5>
                                 {/* <p className="card-text">Click Here</p> */}
@@ -53,7 +54,7 @@ class Home extends Component {
 
                     <div className="col pb-4">
                         <div className="card mx-auto" style={{width: "14rem"}}>
-                        <img src="../../imgs/clean-3.jpg" className="card-img-top" alt="..."/>
+                        <img src="../../imgs/clean-3.JPG" className="card-img-top" alt="..."/>
                             <div className="card-body" style={{backgroundColor: "#7c818c"}}>
                                 <h5 className="card-title">Office Covid-19 Sanitaion</h5>
                                 {/* <p className="card-text">Click Here</p> */}
@@ -64,7 +65,7 @@ class Home extends Component {
 
                     <div className="col pb-4">
                         <div className="card mx-auto" style={{width: "14rem"}}>
-                        <img src="../../imgs/clean-4.jpg" className="card-img-top" alt="..."/>
+                        <img src="../../imgs/clean-4.JPG" className="card-img-top" alt="..."/>
                             <div className="card-body" style={{backgroundColor: "#7c818c"}}>
                                 <h5 className="card-title">Industrial Covid-19 Sanitation</h5>
                                 {/* <p className="card-text">Click Here</p> */}
@@ -133,8 +134,8 @@ class Home extends Component {
                             <img src="../../imgs/moveout.jpg" class="mr-3" alt="..."/>
                             <div class="media-body">
                             <h5 class="mt-0 mb-1">Move Out or Move In Cleaning</h5>
-                            5 Hours
-                            <a href="mailto:sterilepro24@gmail.com?subject=Move%20Out%20or%20Move%20In%20Cleaningg&body=Hello,%20I%20would%20like%20to%20inqure%20about%20a%20Move%20In%20or%20Move%20In%20Cleaning,%20My%20Contact%20Info%20Is" className="btn btn-dark ml-2">Book an Appointment</a>
+                            Up to 5 Hours
+                            <a href="mailto:sterilepro24@gmail.com?subject=Move%20Out%20or%20Move%20In%20Cleaning&body=Hello,%20I%20would%20like%20to%20inqure%20about%20a%20Move%20In%20or%20Move%20In%20Cleaning,%20My%20Contact%20Info%20Is" className="btn btn-dark ml-2">Book an Appointment</a>
 
                             </div>
                         </li>
@@ -155,7 +156,7 @@ class Home extends Component {
                             <img src="../../imgs/facebook.jpg" className="card-img-top" alt="..." style={{width: "5rem", height: "5rem"}}/>
                                 <div className="card-body" style={{backgroundColor: "#7c818c"}}>
                                     <h5 className="card-title">Facebook</h5>
-                                    <a href="/" className="btn btn-primary">Click Here</a>
+                                    <a href="https://www.facebook.com/sterilepro24/" className="btn btn-primary">Click Here</a>
                                 </div>
                             </div>
                         </div>
@@ -164,7 +165,7 @@ class Home extends Component {
                             <img src="../../imgs/instagram.png" className="card-img-top" alt="..." style={{width: "5rem", height: "5rem"}}/>
                                 <div className="card-body" style={{backgroundColor: "#7c818c"}}>
                                     <h5 className="card-title">Instagram</h5>
-                                    <a href="/" className="btn btn-primary">Click Here</a>
+                                   <a href="https://www.instagram.com/sterilepro24/" className="btn btn-primary">Click Here</a>
                                 </div>
                             </div>
                         </div>
@@ -173,7 +174,7 @@ class Home extends Component {
                             <img src="../../imgs/twitter.png" className="card-img-top" alt="..." style={{width: "5rem", height: "5rem"}}/>
                                 <div className="card-body" style={{backgroundColor: "#7c818c"}}>
                                     <h5 className="card-title">Twitter</h5>
-                                    <a href="/" className="btn btn-primary">Click Here</a>
+                                    <a href="https://twitter.com/sterilepro24" className="btn btn-primary">Click Here</a>
                                 </div>
                             </div>
                         </div>
@@ -182,7 +183,7 @@ class Home extends Component {
                             <img src="../../imgs/youtube.png" className="card-img-top" alt="..." style={{width: "5rem", height: "5rem"}}/>
                                 <div className="card-body" style={{backgroundColor: "#7c818c"}}>
                                     <h5 className="card-title">Youtube</h5>
-                                    <a href="/" className="btn btn-primary">Click Here</a>
+                                    <a href="https://www.youtube.com/channel/UC0pJ8R7OSlLelhWUTpWCu7g" className="btn btn-primary">Click Here</a>
                                 </div>
                             </div>
                         </div>
