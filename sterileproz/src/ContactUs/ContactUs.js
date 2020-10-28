@@ -5,7 +5,7 @@ class ContactUs extends Component {
     render() {
         return(
             <div className="home">
-                <div className="container" style={{height: "100%"}}>
+                <div className="container fill">
                     <div className="row">
                         <div className="col pt-4">
                             <div className="card mx-auto" style={{width: "13rem"}}>

@@ -6,7 +6,7 @@ class AboutUs extends Component {
         return(
             <div className="home">
 
-                <div className="container">
+                <div className="container fill">
                     <div className="row">
                     <div className="jumbotron" style={{backgroundColor: "#7c818c"}}>
                         <h1 className="display-4">About Us</h1>
