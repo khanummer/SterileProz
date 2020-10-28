@@ -20,7 +20,7 @@ class ContactUs extends Component {
                             <div className="card mx-auto" style={{width: "13rem"}}>
                             <img src="../../imgs/email-icon.jpg" className="card-img-top" alt="..." style={{width: "5rem", height: "5rem"}}/>
                                 <div className="card-body" style={{backgroundColor: "#7c818c"}}>
-                                    <h5 className="card-title">email@email.com</h5>
+                                    <h5 className="card-title">SterilePro24@Gmail.com</h5>
                                     {/* <a href="/" className="btn btn-primary">Click Here</a> */}
                                 </div>
                             </div>

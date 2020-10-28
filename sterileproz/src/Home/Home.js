@@ -31,7 +31,7 @@ class Home extends Component {
 
                     <div className="col pb-4" >
                         <div className="card mx-auto" style={{width: "14rem"}}>
-                        <img src="../../imgs/stock-image.jpg" className="card-img-top" alt="..."/>
+                        <img src="../../imgs/clean-1.jpg" className="card-img-top" alt="..."/>
                             <div className="card-body" style={{backgroundColor: "#7c818c"}}>
                                 <h5 className="card-title">Residental Covid-19 Sanitation</h5>
                                 {/* <p className="card-text">Click Here</p> */}
@@ -42,7 +42,7 @@ class Home extends Component {
 
                     <div className="col pb-4">
                         <div className="card mx-auto" style={{width: "14rem"}}>
-                        <img src="../../imgs/stock-image.jpg" className="card-img-top" alt="..."/>
+                        <img src="../../imgs/clean-2.jpg" className="card-img-top" alt="..."/>
                             <div className="card-body" style={{backgroundColor: "#7c818c"}}>
                                 <h5 className="card-title">Commercial Covid-19 Sanitation</h5>
                                 {/* <p className="card-text">Click Here</p> */}
@@ -53,7 +53,7 @@ class Home extends Component {
 
                     <div className="col pb-4">
                         <div className="card mx-auto" style={{width: "14rem"}}>
-                        <img src="../../imgs/stock-image.jpg" className="card-img-top" alt="..."/>
+                        <img src="../../imgs/clean-3.jpg" className="card-img-top" alt="..."/>
                             <div className="card-body" style={{backgroundColor: "#7c818c"}}>
                                 <h5 className="card-title">Office Covid-19 Sanitaion</h5>
                                 {/* <p className="card-text">Click Here</p> */}
@@ -64,7 +64,7 @@ class Home extends Component {
 
                     <div className="col pb-4">
                         <div className="card mx-auto" style={{width: "14rem"}}>
-                        <img src="../../imgs/stock-image.jpg" className="card-img-top" alt="..."/>
+                        <img src="../../imgs/clean-4.jpg" className="card-img-top" alt="..."/>
                             <div className="card-body" style={{backgroundColor: "#7c818c"}}>
                                 <h5 className="card-title">Industrial Covid-19 Sanitation</h5>
                                 {/* <p className="card-text">Click Here</p> */}
@@ -112,38 +112,38 @@ class Home extends Component {
                 <div className="row pb-2" style={{color: "#5294e2"}}>
                     <ul class="list-unstyled">
                         <li class="media">
-                            <img src="../../imgs/stock-image.jpg" class="mr-3" alt="..."/>
+                            <img src="../../imgs/house.jpg" class="mr-3" alt="..."/>
                             <div class="media-body">
                             <h5 class="mt-0 mb-1">Regular House Cleaning</h5>
                             Up to 2 Hours
-                            <a href="mailto:burhanadli24@gmail.com?subject=Regular%20House%20Cleaning&body=Hello,%20I%20would%20like%20to%20inqure%20about%20a%20Regular%20House%20Cleaning,%20My%20Contact%20Info%20Is" className="btn btn-dark ml-2">Book an Appointment</a>
+                            <a href="mailto:sterilepro24@gmail.com?subject=Regular%20House%20Cleaning&body=Hello,%20I%20would%20like%20to%20inqure%20about%20a%20Regular%20House%20Cleaning,%20My%20Contact%20Info%20Is" className="btn btn-dark ml-2">Book an Appointment</a>
 
                             </div>
                         </li>
                         <li class="media my-4">
-                            <img src="../../imgs/stock-image.jpg" class="mr-3" alt="..."/>
+                            <img src="../../imgs/deep-cleaning.jpg" class="mr-3" alt="..."/>
                             <div class="media-body">
                             <h5 class="mt-0 mb-1">Heavy Duty / Deep Cleaning</h5>
                             Up to 4 Hours
-                            <a href="mailto:burhanadli24@gmail.com?subject=Heavy%20Duty%20/%20Deep%20Cleaning&body=Hello,%20I%20would%20like%20to%20inqure%20about%20a%20Heavy%20Duty%20/%20Deep%20Cleaning%20My%20Contact%20Info%20Is" className="btn btn-dark ml-2">Book an Appointment</a>
+                            <a href="mailto:sterilepro24@gmail.com?subject=Heavy%20Duty%20/%20Deep%20Cleaning&body=Hello,%20I%20would%20like%20to%20inqure%20about%20a%20Heavy%20Duty%20/%20Deep%20Cleaning%20My%20Contact%20Info%20Is" className="btn btn-dark ml-2">Book an Appointment</a>
 
                             </div>
                         </li>
                         <li class="media my-4">
-                            <img src="../../imgs/stock-image.jpg" class="mr-3" alt="..."/>
+                            <img src="../../imgs/moveout.jpg" class="mr-3" alt="..."/>
                             <div class="media-body">
                             <h5 class="mt-0 mb-1">Move Out or Move In Cleaning</h5>
                             5 Hours
-                            <a href="mailto:burhanadli24@gmail.com?subject=Move%20Out%20or%20Move%20In%20Cleaningg&body=Hello,%20I%20would%20like%20to%20inqure%20about%20a%20Move%20In%20or%20Move%20In%20Cleaning,%20My%20Contact%20Info%20Is" className="btn btn-dark ml-2">Book an Appointment</a>
+                            <a href="mailto:sterilepro24@gmail.com?subject=Move%20Out%20or%20Move%20In%20Cleaningg&body=Hello,%20I%20would%20like%20to%20inqure%20about%20a%20Move%20In%20or%20Move%20In%20Cleaning,%20My%20Contact%20Info%20Is" className="btn btn-dark ml-2">Book an Appointment</a>
 
                             </div>
                         </li>
                         <li class="media">
-                            <img src="../../imgs/stock-image.jpg" class="mr-3" alt="..."/>
+                            <img src="../../imgs/phone-call.jpg" class="mr-3" alt="..."/>
                             <div class="media-body">
                             <h5 class="mt-0 mb-1">Free Quote Callback</h5>
                             20 Minutes
-                            <a href="mailto:burhanadli24@gmail.com?subject=Free%20Quote%20Callback&body=Hello,%20I%20would%20like%20to%20inqure%20about%20a%20Free%20Quote%20Callback,%20My%20Contact%20Info%20Is" className="btn btn-dark ml-2">Book an Appointment</a>
+                            <a href="mailto:sterilepro24@gmail.com?subject=Free%20Quote%20Callback&body=Hello,%20I%20would%20like%20to%20inqure%20about%20a%20Free%20Quote%20Callback,%20My%20Contact%20Info%20Is" className="btn btn-dark ml-2">Book an Appointment</a>
                             </div>
                         </li>
                     </ul>
